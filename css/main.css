@@ -1,0 +1,96 @@
+/* ========COMMON-STYLES========= */
+
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 5%;
+  }
+  
+ /* ========COMMON-CIRCLE-STYLES========= */
+  
+  .circle_box {
+    width: 100%;
+    height: 50%;
+    font-size: 0;
+  }
+  
+  .circle {
+    display: inline-block;
+    width: 30%;
+    height: 60%;
+    background: #EE220C;
+    border-radius: 50%;
+  }
+  
+  /* ========CIRCLE-STYLES========= */
+
+  .circle--top_left {
+    position: relative;
+  }
+  
+  .circle--top_right {
+    position: relative;
+    left: 30%;
+  }
+  
+  .circle--bottom_left {
+    position: relative;
+    top: 20%;
+  }
+  
+  .circle--bottom_right {
+    position: relative;
+    left: 30%;
+    top: 20%;
+  }
+  
+  /* ========SQUARE-STYLES========= */  
+  
+  .square {
+    width: 60%;
+    height: 60%;
+    background: #00A2FF;
+    position: relative;
+    bottom: 85%;
+    left: 15%;
+  }
+  
+  /* ========OVAL_SQUARE-STYLES======== */
+  
+  .oval_square {
+    width: 30%;
+    height: 30%;
+    border-radius: 15%;
+    background: #F8BA00;
+    position: relative;
+    bottom: 130%;
+    left: 30%;
+  }
+  
+  /* ========HOVER-OPTIONS========= */
+
+  .circle--top_left:hover {
+    z-index: 10;
+    background: greenyellow;
+  }
+  
+  .circle--top_right:hover {
+    z-index: 10;
+    background: yellow;
+  }
+  
+  .circle--bottom_left:hover {
+    z-index: 10;
+    background: orange;
+  }
+  
+  .circle--bottom_right:hover {
+    z-index: 10;
+    background: violet;
+  }
+  
+  .square:hover {
+    z-index: 10;
+    background: grey;
+  }
